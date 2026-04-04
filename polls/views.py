@@ -7,7 +7,6 @@ from django.views import generic
 
 from .models import Question, Choice
 
-
 # def index(request):
 #     latest_question_list = Question.objects.order_by("-pub_date")[:5]
 #     template = "polls/index.html"
